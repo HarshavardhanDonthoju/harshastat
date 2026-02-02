@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #2b002b;
+    color: white;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background: #4d004d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px hotpink;
+}
+
+h1 {
+    text-align: center;
+    color: hotpink;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: hotpink;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff66cc;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 10px;
+    background: #330033;
+    border: 2px solid hotpink;
+    text-align: center;
+    font-size: 18px;
+}
+
+#classHeightBox {
+    display: none;
+}
+
+
+  
+    
+
+    

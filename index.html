@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Statistics Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Statistics Calculator</h1>
+
+    <label>X values (comma separated)</label>
+    <input type="text" id="xValues" placeholder="e.g. 10,20,30">
+
+    <label>F values (comma separated)</label>
+    <input type="text" id="fValues" placeholder="e.g. 2,4,6">
+
+    <label>Select Operation</label>
+    <select id="operation" onchange="toggleClassHeight()">
+        <option value="">--Select--</option>
+        <option value="mean">Mean</option>
+        <option value="median">Median</option>
+        <option value="mode">Mode</option>
+        <option value="pvariance">Population Variance</option>
+        <option value="pstd">Population Standard Deviation</option>
+        <option value="svariance">Sample Variance</option>
+        <option value="sstd">Sample Standard Deviation</option>
+    </select>
+
+    <div id="classHeightBox">
+        <label>Class Height</label>
+        <input type="number" id="classHeight" placeholder="Enter class height">
+    </div>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div class="result-box" id="result">
+        Result will appear here
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+      
